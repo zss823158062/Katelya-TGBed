@@ -64,16 +64,16 @@
     .login-container {
       width: 100%;
       max-width: 420px;
-      animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      animation: fadeInUp 0.5s ease-out;
     }
 
     .login-card {
       background: var(--card-bg);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       border-radius: 28px;
       padding: 48px 40px;
-      box-shadow: var(--shadow), 0 4px 30px rgba(138, 75, 255, 0.1);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1), 0 2px 16px rgba(138, 75, 255, 0.08);
       text-align: center;
       border: 1px solid rgba(255, 255, 255, 0.5);
     }
@@ -82,7 +82,6 @@
       font-size: 3.5em;
       color: var(--primary-color);
       margin-bottom: 20px;
-      filter: drop-shadow(0 4px 8px rgba(138, 75, 255, 0.3));
     }
 
     .title {
